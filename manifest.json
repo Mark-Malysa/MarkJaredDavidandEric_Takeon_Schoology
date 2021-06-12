@@ -1,21 +1,20 @@
 {
-  "name": "Schoology Assignment Hider",
-  "description": "Help hide assingments",
+  "name": "Schoology Helper",
+  "description": "Helper",
   "version": "1.0.0",
   "manifest_version": 2,
   "icons": {"128": "icon_128.png"},
+
+
   "browser_action":{
     "default_icon": "icon.png",
-    "default_popup": "popup.html"
+    "default_popup": "popup.html",
+    "default_title": "Schoology Helper"
   },
   "content_scripts": [
     {
       "matches": ["https://bca.schoology.com/*"],
       "js": ["content.js"]
     }
-  ],
-  "browser_action": {
-    "default_popup": "popup.html",
-    "default_title": "Bear"
-  }
+  ]
 }
