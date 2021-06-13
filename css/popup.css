@@ -7,6 +7,7 @@ body {
     max-width: 100%;
     position: relative;
     vertical-align:middle;
+    background-color: lightslategray;
   }
 
   /* Style The Dropdown Button */
