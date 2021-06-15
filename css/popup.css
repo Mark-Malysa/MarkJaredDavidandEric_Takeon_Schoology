@@ -1,10 +1,16 @@
-h1, h2, h3, h4{
+h1, h2, h3{
   font-family: 'Exo 2', sans-serif;
   color: white;
 }
 
+h4{
+  font-family: 'Exo 2', sans-serif;
+  color: white;
+  text-align: bottom;
+}
+
 body {
-    min-width: 600px; /* your desired width */
+    min-width: 600px;
     max-width: 100%;
     position: relative;
     vertical-align:middle;
